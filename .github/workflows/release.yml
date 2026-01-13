@@ -311,7 +311,7 @@ jobs:
         with:
           tagName: v__VERSION__
           releaseName: 'v__VERSION__'
-          tauriScript: ${{ (contains(matrix.platform, 'ubuntu') && 'cargo tauri') || '' }}
+          tauriScript: ${{ (contains(matrix.platform, 'ubuntu') && 'cargo tauri -v') || '' }}
           prerelease: false
           args: ${{ matrix.args }}
           assetNamePattern: ${{ matrix.config == 'microsoftstore' && 'dive_ms-store_x64-setup.exe' || null }}
