@@ -63,11 +63,6 @@
         ]
       }
     },
-    "linux": {
-      "appimage": {
-        "bundleMediaFramework": true
-      }
-    },
     "resources": {
       "../mcp-host/dive_mcp_host": "resources/mcp-host/dive_mcp_host/",
       "../mcp-host/LICENSE": "resources/mcp-host/LICENSE",
